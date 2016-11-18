@@ -4,10 +4,21 @@ body {
   font-family:Arial, sans-serif;
   color:#000000;/*black*/
   text-align:left;
+  background-color:inherit;red;
 }
 h1 {
   font size:1.8em;
   font-weight:bold;
   color:#0000ff;
   text-align:center;
+  background-color:red;
+}
+h2 {
+  font-family: "Helvetica";
+  padding: 10px;
+  border:2px;black;
+}
+
+a {
+
 }
