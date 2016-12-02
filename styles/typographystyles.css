@@ -7,7 +7,7 @@
   background-color: white;
   border: solid 1px black;
   height: 300px;
-  width: 800px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -23,4 +23,105 @@
 
   http://www.w3schools.com/cssref/pr_dim_line-height.asp
   */
+}
+
+/*** TEXT ALIGNMENT ASSIGNMENT STYLES ***/
+
+/* Do not change this style */
+.align {
+ max-width: 70%;
+ margin: 1em auto;
+}
+
+#left_align {
+ /* Use the text-align property to left-align the text
+  http://www.w3schools.com/cssref/pr_text_text-align.asp */
+}
+
+#right_align {
+ /* Use the text-align property to right-align the text
+  http://www.w3schools.com/cssref/pr_text_text-align.asp */
+}
+
+#justify {
+ /* Use the text-align property to justify the text
+  http://www.w3schools.com/cssref/pr_text_text-align.asp */
+}
+
+#center {
+ /* Use the text-align property to justify the text
+  http://www.w3schools.com/cssref/pr_text_text-align.asp */
+}
+
+/*** HIERARCHY ASSIGNMENT STYLES ***/
+
+/* Do not change this style */
+section {
+  font-family: "Helvetica";
+  font-size: 1em;
+  background-color: white;
+  border: solid 1px black;
+  height: 550px;
+  width: 555px;
+  margin: 0 auto;
+}
+
+/* Do not change this style */
+section p {
+  font-size: 1.1em;
+  margin: 2em 4em;
+  max-width: 55%;
+}
+
+/* Change this style */
+/* #biggerText {
+
+} */
+
+/* Change this style */
+/* .indent {
+
+} */
+
+#title {
+  font-size: 2em;
+}
+
+#typ {
+  color: grey;
+}
+
+#paul {
+  font-size: 3em;
+}
+
+/* Place this at the very top of your typographystyles.css document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/* Place these styles towards the bottom of your typographystyles.css document */
+
+.weights {
+  font-family: "Helvetica"; 
+  font-size: 33px;
+}
+
+#weight1 {
+  /* Change the font-weight property to give it a thin-weight */
+}
+
+#weight2 {
+  /* Change the font-weight property to give it a light-weight */
+}
+
+#weight3 {
+  /* Change the font-weight property to give it a regular-weight */
+}
+
+#weight4 {
+  /* Change the font-weight property to give it a bold-weight */
+}
+
+#weight5 {
+  /* Change the font-weight property to give it a ultra-bold-weight */
 }
