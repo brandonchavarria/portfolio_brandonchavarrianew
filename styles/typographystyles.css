@@ -102,26 +102,26 @@ section p {
 /* Place these styles towards the bottom of your typographystyles.css document */
 
 .weights {
-  font-family: "Helvetica"; 
+  font-family: "Helvetica";
   font-size: 33px;
 }
 
 #weight1 {
-  /* Change the font-weight property to give it a thin-weight */
+  font-weight: 200;
 }
 
 #weight2 {
-  /* Change the font-weight property to give it a light-weight */
+font-weight: 300;
 }
 
 #weight3 {
-  /* Change the font-weight property to give it a regular-weight */
+  font-weight: 400;
 }
 
 #weight4 {
-  /* Change the font-weight property to give it a bold-weight */
+font-weight: 500;
 }
 
 #weight5 {
-  /* Change the font-weight property to give it a ultra-bold-weight */
+  font-weight:900;
 }
