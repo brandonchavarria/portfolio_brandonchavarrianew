@@ -14,7 +14,7 @@
 #kerning {
   /* Use the letter-spacing property to change the kerning on the text to fill the div below
 
-  http://www.w3schools.com/cssref/pr_text_letter-spacing.asp
+  http://www.w3schools.com/cssref/pr_text_letter-spacing.asp  
   */
 }
 
@@ -74,26 +74,15 @@ section p {
 }
 
 /* Change this style */
-/* #biggerText {
+ #biggerText {
 
-} */
+}
 
 /* Change this style */
-/* .indent {
+ .indent {
 
-} */
-
-#title {
-  font-size: 2em;
 }
 
-#typ {
-  color: grey;
-}
-
-#paul {
-  font-size: 3em;
-}
 
 /* Place this at the very top of your typographystyles.css document */
 
